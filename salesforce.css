@@ -1,0 +1,348 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;  
+}
+#header{
+    height:10vh;
+    width:100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+  
+}
+#logo{
+    height:70%;
+}
+#logo img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.text{
+    font-weight: bold;
+    display:flex;
+}
+.text:hover{
+    color: rgb(67, 108, 223);   
+}
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: rgb(118, 184, 228);
+}
+#contact{
+    font-weight: bold;
+}
+#login{
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+}
+#login:hover{
+    background-color: rgb(118, 184, 228);  
+}
+#try{
+    padding: 10px;
+    background-color: rgb(106, 168, 106);
+    font-weight: bold;
+}
+#try p{
+    color: white;
+}
+#try:hover{
+    background-color: rgb(3, 61, 3);
+}
+#fakeheader{
+    height:10vh;
+    width:100%;
+}
+#page1{
+    height:90vh;
+    width:100%; 
+}
+#strip{
+    height:8% ;
+    width:100vw;
+    background-color: rgb(2, 2, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+#strip u{
+    font-weight: lighter;
+}#content{
+    height:76%;
+    width:100wh;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#box1{
+    height:90%;
+    width:47%;
+    background-color: white;
+}
+#box1 head{
+    color: rgb(2, 2, 39);
+    font-weight: bold;
+    margin: 30px;;
+}
+#head h1{
+    margin-left: 40px;
+    margin-top: 40px;
+  font-weight: 600;
+  color: rgb(2, 2, 63);
+  font-size: 50px;
+}
+#cont p{
+    margin-left: 40px;
+    margin-top: 20px; 
+    color: rgb(5, 5, 121);
+    font-size: x-large;
+    
+}
+#box2{
+    height:90%;
+    width:47%;
+}
+#box2 img{
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+}
+#box2 video{
+    width:10%;
+    height:100%;
+    object-fit: cover;
+}
+#heading{
+    height:16%;
+    width:100wh;
+    background-color:white;
+    color: rgb(1, 1, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#btns{
+    display:flex;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+#btn1{
+    border-radius: 5px;
+    text-align: center;
+    width:23%;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(8, 162, 223);
+    font-size: larger;
+   
+}
+#btn1:hover{
+    background-color: rgb(2, 2, 70);
+}
+#btn2:hover{
+border: 1px solid rgb(1, 1, 59);
+background-color: rgb(160, 201, 219);
+color:rgb(1, 1, 59);
+}
+#btn2{
+    border-radius: 5px;
+    text-align: center;
+    width:23%;
+    margin: 10px;
+    padding: 10px 20px ;
+    color:rgb(75, 159, 187);
+    font-size: larger;
+    border: 1px solid lightblue;
+
+}
+#page2{
+    height:90vh;
+    width:100%; 
+    margin-top: 30px;
+}
+.cards{
+    margin:30px;
+    height: 360px;
+    width:280px;
+    margin-right: 20px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: white;
+
+}
+#button{
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 550px;
+    padding: 10px 20px;
+    width:13%;
+    height:18px;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ background-color: white;
+ border: 1px solid rgb(12, 156, 223) ;
+ color:rgb(16, 149, 226);
+ font-weight: bolder;
+}
+#button:hover{
+    background-color: rgb(167, 225, 243);
+    border: 1px solid rgb(3, 3, 73);
+    color:rgb(3, 3, 73);
+}
+/* #photo{
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=1536,469");
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    
+} */
+#ka2{
+display:flex;
+}
+
+#one img{
+    height:40%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#two img{
+    height:40%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#three img{
+    height:40%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#four img{
+    height:40%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#one p{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#one p:hover{
+    color:rgb(127, 212, 238);
+}
+#one pre{
+    margin-left: 20px; 
+    color:black;
+    margin-bottom: 40px;
+}
+#one u{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+  
+}
+#one u:hover{
+    color:rgb(127, 212, 238);
+}
+#two p{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#two p:hover{
+    color:rgb(127, 212, 238);
+}
+#two pre{
+    margin-left: 20px; 
+    color:black;
+    margin-bottom: 40px;
+}
+#two u{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+  
+}
+#two u:hover{
+    color:rgb(127, 212, 238);
+}
+#three p{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#three p:hover{
+    color:rgb(127, 212, 238);
+}
+#three pre{
+    margin-left: 20px; 
+    color:black;
+    margin-bottom: 28px;
+}
+#three u{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+  
+}
+#three u:hover{
+    color:rgb(127, 212, 238);
+}
+#four p{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#four p:hover{
+    color:rgb(127, 212, 238);
+}
+#four pre{
+    margin-left: 20px; 
+    color:black;
+    margin-bottom: 40px;
+}
+#four u{
+    font-weight: bold;
+    color: rgb(1, 1, 53);
+    margin-left: 20px;
+}
+#four u:hover{
+    color:rgb(127, 212, 238);
+}
